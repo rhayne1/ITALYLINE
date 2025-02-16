@@ -46,6 +46,9 @@ select:focus {
 /* Área do Catálogo */
 #catalogo-container {
     margin-top: 30px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
 }
 
 #catalogo-imagem {
@@ -65,8 +68,8 @@ select:focus {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
-    display: none;
     text-decoration: none;
+    display: none;
 }
 
 #reset-btn:hover, #catalogo-btn:hover {
@@ -90,4 +93,14 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Animação de FadeIn */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
