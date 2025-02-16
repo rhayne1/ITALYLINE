@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italyline - Puxadores e Acabamentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <img src="https://italyline.com.br/wp-content/uploads/LogoItalyLine-1.png" alt="Italyline Logo" class="logo">
+    </header>
+
+    <!-- Menu de Produtos -->
+    <nav>
+        <select id="menu" onchange="mostrarCatalogo()">
+            <option value="">Selecione uma categoria</option>
+            <option value="inspira">Puxadores - Linha Inspira</option>
+            <option value="economica">Puxadores - Linha Econômica</option>
+            <option value="colonial">Puxadores - Linha Colonial</option>
+            <option value="provencal">Puxadores - Linha Provençal</option>
+            <option value="inox">Puxadores - Linha Inox</option>
+            <option value="cristal">Puxadores - Linha Cristal</option>
+            <option value="ceramica">Puxadores - Linha Cerâmica</option>
+            <option value="estilo">Puxadores - Linha Estilo</option>
+            <option value="rustica">Puxadores - Linha Rústica</option>
+            <option value="duplos">Puxadores - Duplos</option>
+            <option value="acessorios">Acessórios</option>
+            <option value="rodizios">Rodízios</option>
+            <option value="banho">Linha Banho</option>
+            <option value="espelhos">Espelhos</option>
+        </select>
+    </nav>
+
+    <!-- Área do Catálogo -->
+    <div id="catalogo-container">
+        <img id="catalogo-imagem" src="" alt="Catálogo" style="display: none;">
+    </div>
+
+    <!-- Botão de Voltar ao Início -->
+    <button id="reset-btn" onclick="resetarSelecao()" style="display: none;">Voltar ao Início</button>
+
+    <!-- Botão para acessar o catálogo completo -->
+    <a id="catalogo-btn" href="#" target="_blank">Acessar Catálogo Completo</a>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Italyline. Desenvolvido por Rhaynê Pimentel | <a href="mailto:contato@rhayne.com.br">contato@rhayne.com.br</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
