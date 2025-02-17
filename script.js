@@ -6,7 +6,7 @@ function mostrarCatalogo() {
 
     const catalogos = {
         "inspira": "inspira.jpg.JPG",
-        "economica": "imagens/linha_economica.jpgeconomica.jpg.JPG",
+        "economica": "economica.jpg.JPG",
         "colonial": "colonial.jpg.JPG",
         "provencal": "provencal.jpg.jpg",
         "inox": "inox.jpg.JPG",
